@@ -6,7 +6,7 @@ terraform {
     }
   }
     backend "s3" {
-    bucket = "amzn-digger-demo-s3"              # Change if a different S3 bucket name was used for the backend 
+    bucket = "amzn-digger-demo-s3-b"              # Change if a different S3 bucket name was used for the backend 
     /* Un-comment to use DynamoDB state locking
     dynamodb_table = "digger-locktable-quickstart-aws"      # Change if a different DynamoDB table name was used for backend
     */
